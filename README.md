@@ -43,14 +43,3 @@ Execute the program using ./double.
 The program will wait for your input. Type an integer (e.g., 5 or 12) and press Enter.
 
 The program will immediately output the doubled value.
-
-Example Output:
-
-$ ./double
-5
-The double is: 10
-
-
-$ ./double
--4
-The double is: -8
