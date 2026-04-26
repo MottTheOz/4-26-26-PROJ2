@@ -2,6 +2,10 @@
 
 This program is written in x86-64 assembly using GAS (GNU Assembler) syntax. It reads an integer from standard input (stdin), doubles its value, and prints the result to standard output (stdout) using standard C library functions (scanf and printf).
 
+
+
+
+
 _Prerequisites_
 
 To compile and run this code, you must be in a Linux environment (like the course's gl-server) with the gcc compiler installed.
@@ -14,16 +18,22 @@ Run the following command in your terminal:
 
 gcc double.s -o double
 
-
 - double.s is your source file.
 
 - -o double tells the compiler to output an executable named double.
+
+
+
+
 
 _How to Execute and Test_
 
 Once compiled, you can run the executable from your terminal by using ./ to point to the current directory:
 
 ./double
+
+
+
 
 
 Testing the Program:
