@@ -8,7 +8,7 @@ Prerequisites
 
 To compile and run this code, you must be in a Linux environment (like the course's gl-server) with the gcc compiler installed.
 
-How to Compile 
+How to Compile (Assemble and Link)
 
 To compile the assembly source code into an executable file, use the GNU C Compiler (gcc). gcc will automatically handle assembling the .s file and linking it with the necessary C standard libraries.
 
@@ -17,9 +17,9 @@ Run the following command in your terminal:
 gcc double.s -o double
 
 
-double.s is the source file.
+double.s is your source file.
 
--o double tells the compiler to output an executable called double.
+-o double tells the compiler to output an executable named double.
 
 How to Execute and Test
 
@@ -34,7 +34,7 @@ Execute the program using ./double.
 
 The program will wait for your input. Type an integer (e.g., 5 or 12) and press Enter.
 
-The program will output the doubled value.
+The program will immediately output the doubled value.
 
 Example Output:
 
